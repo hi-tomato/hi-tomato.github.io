@@ -1,0 +1,126 @@
+.post {
+  animation: fadeIn 0.5s;
+}
+
+.back-link {
+  display: inline-block;
+  color: #3498db;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.loading,
+.not-found {
+  text-align: center;
+  padding: 3rem;
+  color: #7f8c8d;
+  font-size: 1.2rem;
+}
+
+.post-header {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.post-header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.post-meta .date {
+  color: #7f8c8d;
+}
+
+.post-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  margin: 2rem 0 1rem;
+  color: #2c3e50;
+}
+
+.post-content h1 {
+  font-size: 2rem;
+}
+.post-content h2 {
+  font-size: 1.7rem;
+}
+.post-content h3 {
+  font-size: 1.4rem;
+}
+
+.post-content p {
+  margin-bottom: 1.5rem;
+}
+
+.post-content code {
+  background: #f8f9fa;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.post-content pre {
+  background: #282c34;
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+.post-content pre code {
+  background: none;
+  padding: 0;
+  color: #abb2bf;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.post-content ul,
+.post-content ol {
+  margin: 1rem 0 1rem 2rem;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+}
+
+.post-content blockquote {
+  border-left: 4px solid #3498db;
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  color: #555;
+  font-style: italic;
+}
+
+.post-content a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
